@@ -2208,11 +2208,11 @@
 				}
 
 		ul.menu li {
-			border-left: solid 2px;
+			/* border-left: solid 2px; */
 			display: inline-block;
 			list-style: none;
-			margin-left: 1em;
-			padding-left: 1em;
+			/* margin-left: 1em; */
+			/* padding-left: 1em; */
 		}
 
 			ul.menu li a {
