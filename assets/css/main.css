@@ -18,6 +18,7 @@
 }
 
 
+
 /* home buttons at bottom of extra pages */
 
   .homebutton {
@@ -1834,7 +1835,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #484459;
+			background-color: #39B54A;
 			border-color: transparent;
 			color: #fff !important;
 		}
@@ -3826,7 +3827,7 @@
 	}
 
 		#header > a {
-			color: inherit;
+			color: #39B54A;
 			font-size: 0.75em;
 			font-weight: 400;
 			letter-spacing: 0.13em;
@@ -3847,7 +3848,7 @@
 
 			#header > a[href="#menu"] {
 				text-decoration: none;
-				margin-right: auto;
+				margin-left: auto;
 				-webkit-tap-highlight-color: transparent;
 				padding-left: 0.5em;
 			}
@@ -3916,10 +3917,10 @@
 /* Menu */
 
 	#menu {
-		-moz-transform: translateX(-100%);
-		-webkit-transform: translateX(-100%);
-		-ms-transform: translateX(-100%);
-		transform: translateX(-100%);
+		-moz-transform: translateX(100%);
+		-webkit-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+		transform: translateX(100%);
 		-moz-transition: -moz-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-transition: -webkit-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
@@ -3928,7 +3929,7 @@
 		background: #fff;
 		box-shadow: none;
 		height: 100%;
-		left: 0;
+		right: 0;
 		max-width: 80%;
 		overflow-y: auto;
 		padding: 3em 2em;
