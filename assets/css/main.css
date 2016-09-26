@@ -3827,7 +3827,7 @@
 	}
 
 		#header > a {
-			color: #39B54A;
+			color: #ffffff;
 			font-size: 0.75em;
 			font-weight: 400;
 			letter-spacing: 0.13em;
@@ -3836,6 +3836,9 @@
 			text-decoration: none;
 			text-transform: uppercase;
 			margin-left: 2em;
+		}
+
+
 		}
 
 			#header > a.button {
@@ -3877,13 +3880,15 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background-color: rgba(255, 255, 255, 0.95);
+			background-color: rgba(0, 0, 0, 0.85);
 			padding: 0.5em;
 		}
 
 			#header.alt a[href="#menu"] {
 				padding-left: 1em;
 			}
+
+
 
 	@media screen and (max-width: 980px) {
 
