@@ -26,6 +26,39 @@
 }
 
 
+.tiny {
+	width: 90%;
+}
+
+	@media screen and (max-width: 736px) {
+
+			.tiny {
+				width: 75%;
+			}
+		}
+
+	@media screen and (max-width: 480px) {
+
+			.tiny {
+				width: 55%;
+			}
+		}
+
+.articlepix {
+	max-width: 100%;
+}
+
+
+.subtract {
+	margin-top: -2em;
+}
+
+
+.quotesource {
+	color: #39B54A;
+}
+
+
 
 /* home buttons at bottom of extra pages */
 
@@ -4253,7 +4286,8 @@
 			}
 
 				#banner h1 {
-					font-size: 1.75em;
+					font-size: 1.2em;
+					padding-top: 3em;
 				}
 
 		}

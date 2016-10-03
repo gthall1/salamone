@@ -18,7 +18,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<span class="image"><img src="images/smallest_salamone_logo.png" alt="" /></span>
+				<span class="image"><img src="images/smallest_salamone_logo.png" class="tiny" alt="" /></span>
 				<a href="#menu">Menu</a>
 				<!--  <a href="#">205-938-7285</a>  -->
 				<!--  <a href="#four" class="button">Contact</a>  -->
@@ -59,17 +59,17 @@
 					</header>
 					<section class="split">
 						<article>
-							<span class="image getoffme"><img src="images/bush.jpg" alt="" /></span>
+							<span class="image getoffme"><img src="images/bush.jpg" class="articlepix" alt="" /></span>
 							<h4>Salamone Associates, LLC</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, lorem in pretium aliquet, lacus dui tristique lacus, vel convallis justo lectus in augue. Tempus pellentesque iaculis imperdiet et elementum.</p>
+							<p>While based in Washington, DC, Salamone Associates has provided fundraising, marketing, public relations and strategic planning support for non-profits and corporations in Los Angeles, New York, Boston, Miami, Philadelphia, Chicago, San Francisco, and other major US cities, as well as throughout Italy.</p>
 							<ul class="actions">
 								<li><a href="salamoneassociates.html" class="button">Learn More</a></li>
 							</ul>
 						</article>
 						<article>
-							<span class="image getoffme"><img src="images/salamone_sofia.jpg" alt="" /></span>
+							<span class="image getoffme"><img src="images/salamone_sofia.jpg" class="articlepix" alt="" /></span>
 							<h4>John Salamone</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, lorem in pretium aliquet, lacus dui tristique lacus, vel convallis justo lectus in augue. Tempus pellentesque iaculis imperdiet et elementum.</p>
+							<p>Our President, John Salamone, brings more than four decades of experience in working with the Congress, the White House, Federal agencies, non-profits and CEO’s of Fortune 500 companies.  His track record of success has established him as one of the most effective and respected people in the industry.</p>
 							<ul class="actions">
 								<li><a href="johnsalamone.html" class="button">Learn More</a></li>
 							</ul>
@@ -89,7 +89,7 @@
 						<section>
 							<span class="image"><img src="images/network_pic.jpg" alt="" /></span>
 							<h4>Network</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, lorem in pretium aliquet, lacus dui tristique lacus, vel convallis justo lectus in augue. Tempus pellentesque iaculis imperdiet et elementum.</p>
+							<p>It’s about hard work, but relationships and your reputation open the doors.  Our network of friends and associates in government, business and Hollywood is one of the most impressive in the country.</p>
 							<ul class="actions">
 								<li><a href="network.html" class="button">Learn More</a></li>
 							</ul>
@@ -97,7 +97,7 @@
 						<section>
 							<span class="image"><img src="images/arnold.jpg" alt="" /></span>
 							<h4>Testimonials</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, lorem in pretium aliquet, lacus dui tristique lacus, vel convallis justo lectus in augue. Tempus pellentesque iaculis imperdiet et elementum.</p>
+							<p>There is no greater satisfaction than the thanks you receive from those who feel you exceeded their expectations and delivered the BEST.  We are grateful to have so many satisfied clients.</p>
 							<ul class="actions">
 								<li><a href="testimonials.html" class="button">Learn More</a></li>
 							</ul>
@@ -156,21 +156,25 @@
 						<header class="major">
 							<h2>Contact Us</h2>
 						</header>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, lorem in pretium aliquet, lacus dui tristique lacus, vel convallis justo lectus in augue. Tempus pellentesque iaculis imperdiet et elementum lorem sed ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, lorem pretium aliquet lacus.</p>
+						<p>Please reach out to us if you have any questions or comments.</p>
+						<p>Office: <strong>(800) 385-0722</strong></p>
+						<p>Salamone Associates LLC</br>1431 – 21st St, NW, Suite 202</br>Washington, DC   20026</p>
 						<hr>
-						<strong>800-111-2233</strong>
+
 					</section>
-					<form method="post" action="#">
+					<form  action="mail.php" method="POST">
 						<label for="name">Name</label>
 						<input type="text" id="name" name="name" />
 						<label for="email">Email</label>
 						<input type="email" id="email" name="email" />
+						<label for="name">Phone</label>
+						<input type="text" id="phone" name="phone" />
 						<label for="message">Message</label>
 						<div class="12u$">
 							<textarea name="message" id="message" placeholder="" rows="6"></textarea>
 						</div>
 						<ul class="actions">
-							<li><a href="#" class="button">Send Message</a></li>
+							<li><input type="submit" name="submit" value="Send Message" class="button" /></li>
 						</ul>
 					</form>
 				</div>
