@@ -25,6 +25,14 @@
 	margin-top: -60px;
 }
 
+	@media screen and (max-width: 736px) {
+
+			.salamonevideo {
+				width: 90%;
+				height: 50%;
+			}
+		}
+
 
 .tiny {
 	width: 90%;
@@ -43,6 +51,8 @@
 				width: 55%;
 			}
 		}
+
+
 
 .articlepix {
 	max-width: 100%;
@@ -1482,6 +1492,13 @@
 			background-size: auto, auto, cover;
 		}
 
+		.otherpagefooter {
+			background-attachment: fixed;
+			background-image: url("images/angular-lines-down.svg");
+			background-position: center bottom;
+			background-size: auto;
+		}
+
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -1493,13 +1510,13 @@
 			transition: none !important;
 		}
 
-		@media screen and (max-width: 1280px) {
+		/*  @media screen and (max-width: 1280px) {
 
 			body {
 				background-attachment: scroll !important;
 			}
 
-		}
+		}  */
 
 /* Type */
 
